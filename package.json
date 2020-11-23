@@ -1,0 +1,21 @@
+{
+  "name": "ServidorSW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor_websocket.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon servidor_websocket.js",
+    "test": "node servidor_websocket.js"
+  },
+  "engines":{
+    "node":"v14.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
